@@ -1,9 +1,7 @@
 == Deleted file won’t delete
 
-*Scott*: "`I put one of those drop-in things in. Should be good to go!
-But they say its not working, must be a pebkac right?`"
-
-Scott’s drop-in is in `+/etc/sudoers.d/webteam-sudo+`
+*Scott*: I just cant get the webteam user to run systemctl commands on
+httpd through sudo!
 
 Can you configure sudo to allow the `+webteam+` user to run
 `+systemctl+` commands on the `+httpd+` service through sudo *without*
